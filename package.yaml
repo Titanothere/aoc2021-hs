@@ -9,6 +9,7 @@ copyright:           "2021 Brage Salhus Bunk"
 extra-source-files:
 - README.md
 - ChangeLog.md
+- inputfiles/*
 
 # Metadata used when publishing your package
 # synopsis:            Short description of your package
