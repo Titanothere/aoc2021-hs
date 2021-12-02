@@ -6,7 +6,7 @@ cabal-version: 1.12
 
 name:           aoc2021-hs
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/aoc2021-hs#readme>
+description:    Please see the README on GitHub at <https://github.com/Titanothere/aoc2021-hs#readme>
 homepage:       https://github.com/Titanothere/aoc2021-hs#readme
 bug-reports:    https://github.com/Titanothere/aoc2021-hs/issues
 author:         Brage Salhus Bunk
