@@ -1,5 +1,5 @@
 module Day6 
-  -- (solution6a, solution6b)
+  (solution6a, solution6b)
   where
 
 import Data.Char
