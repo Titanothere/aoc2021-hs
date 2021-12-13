@@ -1,5 +1,5 @@
 module Day3 
-  -- (solution3a, solution3b) 
+  (solution3a, solution3b) 
   where
 
 import Data.List
