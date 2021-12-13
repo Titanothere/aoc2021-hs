@@ -1,7 +1,7 @@
 {-# LANGUAGE TupleSections #-}
 
 module Day5
-  -- (solution5a, solution5b)
+  (solution5a, solution5b)
   where
 
 import Data.Char
