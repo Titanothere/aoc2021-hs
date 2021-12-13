@@ -4,11 +4,13 @@ module Solutions
     , module Day2
     , module Day3
     , module Day4
+    , module Day5
     ) where
 
 import Day2
 import Day3
 import Day4
+import Day5
 
 solution1a :: String -> String
 solution1a = show . solve1a . parse1
