@@ -4,6 +4,7 @@ module Day5
   (solution5a, solution5b)
   where
 
+import Utils.Parsing
 import Data.Char
 import Data.List
 import Data.Set (Set)
@@ -21,9 +22,6 @@ parse5 = fst . head . readP_to_S readInput
 
 type Point = (Int, Int)
 type Line  = (Point, Point)
-
-readPositiveInt :: ReadP Int
-readPositiveInt = read <$> munch1 isNumber
 
 readPoint :: ReadP Point
 readPoint = (,) <$> readPositiveInt <*> (char ',' >> readPositiveInt)

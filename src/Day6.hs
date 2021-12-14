@@ -2,6 +2,7 @@ module Day6
   (solution6a, solution6b)
   where
 
+import Utils.Parsing
 import Data.Char
 import Text.ParserCombinators.ReadP
 
@@ -13,9 +14,6 @@ solution6b = show . sum . head . drop 256 . iterate step2 . createState . parse6
 
 parse6 :: String -> [Int]
 parse6 = fst . head . readP_to_S readInput
-
-readPositiveInt :: ReadP Int
-readPositiveInt = read <$> munch1 isNumber
 
 readInput :: ReadP [Int]
 readInput = do is <- readPositiveInt `sepBy1` char ','
