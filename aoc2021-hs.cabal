@@ -23,6 +23,7 @@ extra-source-files:
     inputfiles/input4
     inputfiles/input5
     inputfiles/input6
+    inputfiles/input7
 
 source-repository head
   type: git
@@ -35,7 +36,9 @@ library
       Day4
       Day5
       Day6
+      Day7
       Solutions
+      Utils.Parsing
   other-modules:
       Paths_aoc2021_hs
   hs-source-dirs:
