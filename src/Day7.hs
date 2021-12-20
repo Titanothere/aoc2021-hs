@@ -1,5 +1,5 @@
 module Day7
-  -- ( solution7a, solution7b )
+  ( solution7a, solution7b )
   where
 
 import Data.List (sort)
