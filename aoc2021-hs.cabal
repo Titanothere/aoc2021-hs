@@ -24,6 +24,7 @@ extra-source-files:
     inputfiles/input5
     inputfiles/input6
     inputfiles/input7
+    inputfiles/input8
 
 source-repository head
   type: git
@@ -37,6 +38,7 @@ library
       Day5
       Day6
       Day7
+      Day8
       Solutions
       Utils.Parsing
   other-modules:

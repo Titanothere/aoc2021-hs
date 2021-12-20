@@ -7,6 +7,7 @@ module Solutions
     , module Day5
     , module Day6
     , module Day7
+    , module Day8
     ) where
 
 import Day2
@@ -15,6 +16,7 @@ import Day4
 import Day5
 import Day6
 import Day7
+import Day8
 
 solution1a :: String -> String
 solution1a = show . solve1a . parse1
