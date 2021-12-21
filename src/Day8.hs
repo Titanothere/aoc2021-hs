@@ -1,5 +1,5 @@
 module Day8
-  -- (solution8a, solution8b)
+  (solution8a, solution8b)
   where
 
 import Data.List
