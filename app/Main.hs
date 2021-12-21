@@ -50,3 +50,9 @@ main = do i1 <- readFile "inputfiles/input1"
           putStrLn $ "Part 1: " ++ solution8a i8
           putStrLn $ "Part 2: " ++ solution8b i8
           putStrLn ""
+          
+          i9 <- readFile "inputfiles/input9"
+          putStrLn "Day9:"
+          putStrLn $ "Part 1: " ++ solution9a i9
+          putStrLn $ "Part 2: " ++ solution9b i9
+          putStrLn ""
